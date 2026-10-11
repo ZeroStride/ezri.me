@@ -1,0 +1,22 @@
+base_url = "https://ezri.me"
+title = "Ezri's Internet Lawn Chair"
+description = ""
+theme = "zolanight"
+compile_sass = true
+generate_feeds = true
+build_search_index = false
+feed_limit = 10
+feed_filenames = ["atom.xml"]
+taxonomies = [{ name = "tags" }]
+
+[markdown]
+github_alerts = true
+
+[markdown.highlighting]
+theme = "catppuccin-mocha" # Code highlighting theme
+
+[extra.zolanight]
+theme = "tokyomoon"
+home_list_latest_blog_posts = true
+google_analytics_id = ""
+ko_fi_url = ""
