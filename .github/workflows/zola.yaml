@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v7
+        with:
+          submodules: 'true'
 
       - name: Build Zola + upload Pages artifact
         uses: getzola/github-pages@v1
